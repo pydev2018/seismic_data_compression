@@ -17,6 +17,8 @@ st.image("svd.JPG")
 st.image("svd_2.JPG")
 st.image("svd_3.JPG")
 
+st.markdown(" ### The data used for this experiment is taken from Mobil AVO viking graben line 12")
+
 num_k = st.slider(
     "Set the K-rank for SVD compression", 0, 120, 50, 1
 )
